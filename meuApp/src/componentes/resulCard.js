@@ -14,8 +14,8 @@ const ResultCard = ({ etanol, gasolina }) => {
         </Text>
         <Text style={styles.descricao}>
           {etanol / gasolina < 0.7
-            ? 'Abaixo de 70%, o etanol compensa! ✅'
-            : 'Acima de 70%, prefira a gasolina. ✅'}
+            ? 'Abaixo de 70%, o etanol compensa!'
+            : 'Acima de 70%, prefira a gasolina.'}
         </Text>
       </View>
     </View>
